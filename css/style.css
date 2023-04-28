@@ -1,0 +1,463 @@
+* {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     list-style: none;
+}
+/* navigation dropdown menu */
+.dropdown {
+     margin: 0 15px;
+     padding: 0 5px;
+}
+.dropdown-ul-ul {
+     margin: 5px;
+     padding: 15px 0;
+     min-width: 270px;
+     min-height: auto;
+     text-align: left;
+     box-shadow: 0 4px 16px rgba(20, 23, 28, 0.25);
+     font-size: 13px;
+}
+
+.dropdown-li {
+     padding: 5px;
+     min-width: 270px;
+     min-height: 40px;
+}
+
+.dropdown-li:hover {
+     width: 270px;
+     min-height: 40px;
+     background-color: #e8e9eb;
+     cursor: pointer;
+}
+
+.dropdown-li a {
+     font-weight: 600;
+     float: left;
+}
+.dropdown-li-img {
+     margin: 5px;
+     max-width: 40px;
+     text-align: center;
+     padding-top: 4px;
+     color: #b4b4b4;
+}
+
+.nav-search form input {
+     height: 40px;
+     min-width: 250px;
+     padding: 0 15px;
+     background-color: #f5f9fa;
+     border: 1px solid #f5f9fa;
+     border-radius: 5px 0 0 5px;
+}
+
+.nav-search form div {
+     padding: 6px 10px;
+     background-color: #f5f9fa;
+     border-radius: 0 5px 5px 0;
+     height: 40px;
+     width: 40px;
+}
+
+.nav-search form button {
+     border: none;
+     margin-left: -4px;
+     height: 40px;
+     width: 50px;
+     padding: 6px 10px;
+     background-color: #f5f9fa;
+}
+
+.nav-search form button i {
+     padding: 5px;
+     text-align: center;
+     font-size: 14px;
+     background-color: #ec5252;
+     color: #fff;
+     border: 1px solid #ec5252;
+     border-radius: 5px;
+}
+
+.nav-search form button i:hover {
+     background-color: #ef3434;
+     cursor: pointer;
+     box-shadow: 0px 0px 10px #ec5252;
+}
+
+/* .cart{
+     margin-left: 30px;
+} */
+
+.cart a span{
+     margin: 0px 0px 0 -8px;
+     line-height: 9px;
+     font-size: 8px;
+     border-radius: 50%;
+}
+.banner-body {
+     min-height: 250px;
+     max-width: 500px;
+     margin: 50px 0;
+     padding: 25px 25px 25px 0;
+}
+
+.banner-body h2 {
+     font-size: 44px;
+     font-weight: 700;
+}
+
+.banner-body p {
+     font-size: 16px;
+     font-weight: 400;
+     color: #6c757d;
+}
+
+.text-first {
+     padding: 16px 0;
+     min-height: 93px;
+}
+
+.text-first div i {
+     margin: 0;
+     padding: 4px;
+     font-size: 45px;
+     color: #fff;
+}
+
+.text-first div div {
+     margin: 0px;
+     padding-left: 20px;
+     float: left;
+}
+
+.text-first div div h4 {
+     margin: 0;
+     font-size: 17px;
+     font-weight: 800;
+}
+
+.text-first div div p {
+     margin: 0;
+     font-size: 14px;
+     font-weight: 600;
+}
+
+.text-first div {
+     margin: 8px 0;
+}
+
+/* Categories section */
+.categories {
+     padding: 35px 0;
+}
+.categories-row {
+     padding: 24px 0;
+}
+.categories-row div h2 {
+     font-size: 28px;
+     font-weight: 500;
+}
+
+.categories-a {
+     text-decoration: none;
+     color: #000;
+}
+
+.categories-card {
+     margin: 5px;
+     padding: 15px 0;
+}
+.categories-card div i {
+     padding: 8px;
+     font-size: 20px;
+     border: 1px solid #f1f7f8;
+     height: 40px;
+     width: 40px;
+     border-radius: 7px;
+     background-color: #fff;
+     color: #000;
+}
+
+.categories-body div {
+     padding-left: 15px;
+}
+.categories-body div h5 {
+     font-size: 17px;
+     margin: 0;
+}
+
+.categories-body div p {
+     font-size: 15px;
+     color: #b4b4b4;
+     margin: 0;
+}
+.categories-card:hover {
+     color: #fff;
+     background-color: #ec5252;
+     box-shadow: 0px 0px 10px #ec5252;
+     cursor: pointer;
+}
+
+/* Course section & Latest course section */
+.course {
+     padding: 10px 0 25px 0;
+}
+.course-row {
+     padding: 15px 0;
+}
+.course-col {
+     padding: 12px;
+}
+
+.course-row div h2 {
+     font-size: 28px;
+     font-weight: 500;
+}
+
+.course-a {
+     text-decoration: none;
+     color: #000;
+}
+
+.course-card {
+     margin: 5px;
+}
+
+.course-card:hover {
+     box-shadow: 0px 0px 10px #888888;
+     cursor: pointer;
+}
+
+.course-card img {
+     padding: 7px 7px 0px 7px;
+     border-radius: 15px 15px 0 0;
+}
+
+.cousre-body p {
+     font-size: 14.5px;
+     font-weight: 500;
+     color: #000;
+}
+.card-row {
+     margin: 0;
+     padding: 5px 10px 5px 0;
+}
+
+.card-rating {
+     padding-right: 10px;
+     font-size: 16px;
+}
+
+.card-rating i {
+     font-size: 12px;
+     color: #b4b4b4;
+}
+.card-review .one {
+     padding-left: 5px;
+     font-size: 15px;
+     color: #212529;
+     font-weight: 500;
+}
+
+.card-review .two {
+     padding-left: 10px;
+     font-size: 12px;
+     color: #6c757d;
+     font-weight: 500;
+}
+
+.card-time i {
+     font-size: 12px;
+     color: #212529;
+}
+
+.card-time span,
+.card-lecture span {
+     font-size: 12px;
+     color: #6c757d;
+     font-weight: 500;
+}
+
+.card-lecture {
+     padding-left: 20px;
+}
+.card-lecture i {
+     font-size: 9px;
+     color: #212529;
+     border: 2px solid #212529;
+     padding: 1px;
+     border-radius: 2px;
+}
+
+.card-section {
+     margin: 0;
+     padding: 10px 0 5px 0;
+}
+
+.section {
+     height: 25px;
+     background-color: #eceb98;
+     color: #5c5c4c;
+     padding: 3px 15px 3px 15px;
+     border-radius: 6px;
+     width: auto;
+     font-size: 12px;
+     font-weight: 700;
+}
+
+.card-btn {
+     border: 1px solid #5ca1b4;
+     color: #5d5d1c;
+     background: #fff;
+     font-size: 12px;
+     font-weight: 500;
+     border-radius: 6px;
+     padding: 3px 8px 3px 8px;
+}
+
+.card-btn:hover {
+     background-color: #5ca1b4;
+     color: #fff;
+     cursor: pointer;
+     font-weight: 500;
+}
+
+/* Featured instructor */
+
+.instructor {
+     min-height: 120px;
+     padding: 35px 0;
+}
+
+.instructor div div {
+     margin: 0 0 48px;
+     font-size: 28px;
+     font-weight: 600;
+}
+
+/* Latest blogs */
+
+.blogs {
+     padding: 24px 0;
+}
+
+.latest-blog div {
+     margin: 5px;
+     min-height: 25px;
+}
+
+.latest-blog div div {
+     font-size: 24px;
+     font-weight: 700;
+}
+
+.join {
+     margin-bottom: 24px;
+}
+
+.join-col {
+     margin: 10px 5px;
+     padding: 40px 10px;
+     background-color: #ec5252;
+     border: 1px solid #ec5252;
+     border-radius: 10px;
+}
+
+.join-col h3 {
+     font-size: 25px;
+     font-weight: 600;
+     color: #ffffff;
+}
+
+.join-col button {
+     margin-top: 10px;
+     color: #626262;
+     background-color: #ffffff;
+     font-size: 13px;
+     font-weight: 700;
+}
+
+.join-col button:hover {
+     color: #5c5c4c;
+     box-shadow: 0px 0px 10px #888888;
+}
+
+.footer {
+     margin-top: 48px;
+     padding: 48px 0 48px 0;
+}
+
+.footer-col {
+     padding: 12px 0;
+}
+
+.footer-col p {
+     margin-left: 3px;
+     padding: 10px 0;
+     font-size: 14px;
+     font-weight: 400;
+}
+
+.footer-col div,
+.footer-col ul {
+     margin: 0;
+     padding: 10px 0;
+}
+
+.footer-col div a {
+     text-decoration: none;
+     float: left;
+}
+
+.footer-col div a i {
+     height: 40px;
+     width: 40px;
+     float: left;
+     text-align: center;
+     font-size: 14px;
+     margin: 0 15px 5px 0;
+     padding: 12px;
+     background-color: #ec5252;
+     color: #fff;
+     border: 1px solid #ec5252;
+     border-radius: 50%;
+}
+
+.footer-col div a i:hover {
+     background-color: #ef3434;
+     color: #fff;
+     cursor: pointer;
+     box-shadow: 0px 0px 10px #ec5252;
+     text-decoration: none;
+}
+
+.footer-col h5 {
+     font-size: 20px;
+     font-weight: 700;
+     color: #6c757d;
+}
+.footer-col ul li {
+     padding: 2px 0;
+}
+.footer-col ul li a {
+     text-decoration: none;
+     color: #6c757d;
+     font-size: 14px;
+     font-weight: 400;
+}
+
+.footer-col ul li a:hover {
+     color: #000;
+     cursor: pointer;
+}
+
+.footer-end {
+     text-align: center;
+     padding: 24px 0;
+     color: #6c757d;
+     font-size: 14px;
+     font-weight: 400;
+     border-top: 1px solid #dee2e6;
+}

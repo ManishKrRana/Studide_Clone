@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Studide - Clone</title>
+          <link type="text/css" rel="stylesheet" href="./css/style.css" />
+          <!-- <script type="text/javascript" language="javascript" src="./js/scripts.js"></script> -->
+
+          <!-- Bootstrap -->
+          <link rel="stylesheet" type="text/css" href="./bootstrap-5.1.3/css/bootstrap.min.css" />
+          <script type="text/javascript" src="./bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+          <!-- Google fonts links -->
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap" rel="stylesheet" />
+     </head>
+
+     <body>
+          <div class="bg-light">
+               <!-- Navbar Menu -->
+
+               <div class="container-fluid bg-white">
+                    <div class="container-xl p-0">
+                         <div class="row d-flex">
+                              <div class="col-md-10 m-0 p-0">
+                                   <nav class="navbar navbar-expand-lg navbar-light">
+                                        <button
+                                             class="navbar-toggler"
+                                             type="button"
+                                             data-bs-toggle="collapse"
+                                             data-bs-target="#navbarSupportedLogin"
+                                             aria-controls="navbarSupportedLogin"
+                                             aria-expanded="false"
+                                             aria-label="Toggle navigation"
+                                        >
+                                             <i class="fas fa-bars"></i>
+                                        </button>
+                                        <a class="navbar-brand" href="./index.html">
+                                             <img src="./images/06179cfdbde10e9fef71cf2b755c3f9b.png" class="img-fluid" width="100px" alt="Studide logo" />
+                                        </a>
+
+                                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                             <ul class="navbar-nav">
+                                                  <li class="nav-item dropdown">
+                                                       <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <span><i class="bi bi-grid-3x3-gap-fill"></i></span>
+                                                            <span>Categories</span>
+                                                       </a>
+                                                       <ul class="dropdown-menu bg-white dropdown-ul-ul" aria-labelledby="navbarDropdown">
+                                                            <li class="d-flex dropdown-li">
+                                                                 <i class="fa-solid fa-code dropdown-li-img"></i>
+                                                                 <a class="dropdown-item" href="#">Coding & Programming</a>
+                                                                 <i class="fa-solid fa-angle-right dropdown-li-img"></i>
+                                                            </li>
+                                                            <li class="d-flex dropdown-li">
+                                                                 <i class="fa-regular fa-comment dropdown-li-img"></i>
+                                                                 <a class="dropdown-item" href="#">Personal Developement</a>
+                                                                 <i class="fa-solid fa-angle-right dropdown-li-img"></i>
+                                                            </li>
+                                                            <li class="d-flex dropdown-li">
+                                                                 <i class="fa-regular fa-address-book dropdown-li-img"></i>
+                                                                 <a class="dropdown-item" href="#">Project and Internship</a>
+                                                                 <i class="fa-solid fa-angle-right dropdown-li-img"></i>
+                                                            </li>
+                                                            <li class="d-flex dropdown-li">
+                                                                 <i class="fa-solid fa-laptop dropdown-li-img"></i>
+                                                                 <a class="dropdown-item" href="#">Advance IT Training</a>
+                                                                 <i class="fa-solid fa-angle-right dropdown-li-img"></i>
+                                                            </li>
+                                                            <li class="d-flex dropdown-li">
+                                                                 <i class="fa-sharp fa-solid fa-pen-to-square dropdown-li-img"></i>
+                                                                 <a class="dropdown-item" href="#">Skill Based Training</a>
+                                                                 <i class="fa-solid fa-angle-right dropdown-li-img"></i>
+                                                            </li>
+                                                            <li class="d-flex dropdown-li">
+                                                                 <i class="fa-solid fa-bars dropdown-li-img"></i>
+                                                                 <a class="dropdown-item" href="#">All Courses</a>
+                                                            </li>
+                                                       </ul>
+                                                  </li>
+                                                  <li class="nav-item nav-search">
+                                                       <form class="d-flex">
+                                                            <input class="form-control" type="search" placeholder="Search for courses" aria-label="Search" />
+
+                                                            <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                                       </form>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                        <div class="cart">
+                                             <a class="text-reset me-3 text-decoration-none" href="#">
+                                                  <i class="fas fa-shopping-cart"></i>
+                                                  <span class="badge bg-danger">0</span>
+                                             </a>
+                                        </div>
+                                   </nav>
+                              </div>
+                              
+                              <div class="col-md-2 m-0 p-0">
+                                   <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+                                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedLogin">
+                                             <ul class="nav navbar navbar-expand-lg navbar-light justify-content-start">
+                                                  
+                                                  <li class="nav-item">
+                                                       <a class="navbar-brand" href="#">
+                                                            <button type="button" class="btn btn-light">Log in</button>
+                                                       </a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                       <a class="navbar-brand" href="#">
+                                                            <button type="button" class="btn btn-danger">Sign up</button>
+                                                       </a>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                   </nav>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <!-- Banner section -->
+               <div class="container-fluid">
+                    <div class="row banner bg-light d-flex">
+                         <div class="col-md-7">
+                              <div class="container-xl">
+                                   <center >
+                                        <div class="banner-body">
+                                             <h2>The practical education platform</h2>
+                                             <p>Learn practically, get certified and start your career</p>
+                                             <form class="d-flex">
+                                                  <input class="form-control me-2" type="search" placeholder="What do you want to learn?" aria-label="Search" />
+                                                  <button class="btn btn-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                             </form>
+                                        </div>
+                                   </center>
+                              </div>
+                         </div>
+                         <div class="col-md-5 m-0 p-0">
+                              <img src="./images/d7779e625d40191cb8ba59adf9280fe2.jpg" class="img-fluid" alt="" />
+                         </div>
+                    </div>
+               </div>
+
+               <!-- Main text area  -->
+               <div class="container-fluid bg-danger">
+                    <div class="container-xl">
+                         <div class="row text-light text-first">
+                              <div class="col-md-4 d-flex float-start">
+                                   <i class="fa-solid fa-bullseye"></i>
+                                   <div class="text-box">
+                                        <h4>13 Online courses</h4>
+                                        <p>Explore a variety of fresh topics</p>
+                                   </div>
+                              </div>
+                              <div class="col-md-4 d-flex float-start">
+                                   <i class="fa-solid fa-check"></i>
+                                   <div class="text-box">
+                                        <h4>Expert instruction</h4>
+                                        <p>Find the right course for you</p>
+                                   </div>
+                              </div>
+                              <div class="col-md-4 d-flex float-start">
+                                   <i class="fa-solid fa-clock"></i>
+                                   <div class="text-box">
+                                        <h4>Lifetime access</h4>
+                                        <p>Learn on your schedule</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- Categories section  -->
+
+               <div class="container-xl">
+                    <div class="categories">
+                         <div class="row categories-row">
+                              <div class="col-md-12">
+                                   <h2>Top categories</h2>
+                              </div>
+                         </div>
+                         <div class="row">
+                              <div class="col-md-3">
+                                   <a href="#" class="categories-a">
+                                        <div class="card categories-card">
+                                             <div class="card-body d-flex categories-body">
+                                                  <i class="fa-solid fa-code"></i>
+                                                  <div>
+                                                       <h5>Coding and Programming Courses</h5>
+                                                       <p>6 Courses</p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-md-3">
+                                   <a href="#" class="categories-a">
+                                        <div class="card categories-card">
+                                             <div class="card-body d-flex categories-body">
+                                                  <i class="fa-brands fa-accessible-icon"></i>
+                                                  <div>
+                                                       <h5>Skill Based Courses</h5>
+                                                       <p>4 Courses</p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-md-3">
+                                   <a href="#" class="categories-a">
+                                        <div class="card categories-card">
+                                             <div class="card-body d-flex categories-body">
+                                                  <i class="fa-solid fa-language"></i>
+                                                  <div>
+                                                       <h5>English Language Training</h5>
+                                                       <p>2 Courses</p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-md-3">
+                                   <a href="#" class="categories-a">
+                                        <div class="card categories-card">
+                                             <div class="card-body d-flex categories-body">
+                                                  <i class="fa-solid fa-person-dress"></i>
+                                                  <div>
+                                                       <h5>Personality Developement and Interviews</h5>
+                                                       <p>1 Courses</p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- Cousres section  -->
+               <div class="container-xl">
+                    <div class="course">
+                         <div class="row course-row">
+                              <div class="col-md-12">
+                                   <h2>Top Courses</h2>
+                              </div>
+                         </div>
+                         <div class="row">
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/c.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">C Programming Course Online | Training of C Language</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Intermediate</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/c++.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">C++ Programming Course Online | Training of C++ Language</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Intermediate</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/java.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">Java Programming Course Online | Training of Java Language</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Intermediate</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/python.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">Python Programming Course Online | Python Training Class</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Intermediate</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- Top 10 latest course  -->
+               <div class="container-xl">
+                    <div class="course">
+                         <div class="row course-row">
+                              <div class="col-md-12">
+                                   <h2>Top 10 Latest Courses</h2>
+                              </div>
+                         </div>
+                         <div class="row">
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/web design.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">Web Designing Course</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Beginner</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/video editing.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">Video Editing Course</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Intermediate</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/graphic design.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">Graphic Designing</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Intermediate</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+
+                              <div class="col-md-3 course-col">
+                                   <a href="#" class="course-a">
+                                        <div class="card course-card">
+                                             <img src="./images/digital market.jpg" class="card-img-top" alt="..." />
+                                             <div class="card-body cousre-body">
+                                                  <p class="card-text">Digital Marketing</p>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-rating">
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                                 <i class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="card-review">
+                                                                 <span class="one">(0)</span>
+                                                                 <span class="two">(0 Reviews)</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-row">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start card-time">
+                                                                 <i class="fa-regular fa-clock"></i>
+                                                                 <span>00:00:00 Hours</span>
+                                                            </div>
+                                                            <div class="card-lecture float-start">
+                                                                 <i class="fa-solid fa-list"></i>
+                                                                 <span>0 Lectures</span>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                                  <div class="row card-section">
+                                                       <div class="col-md-12">
+                                                            <div class="float-start section">Intermediate</div>
+
+                                                            <div class="float-end">
+                                                                 <button class="card-btn">
+                                                                      <i class="fa-solid fa-scale-balanced"></i>
+                                                                      Compare
+                                                                 </button>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- Featured instructor -->
+
+               <div class="container-fluid">
+                    <div class="row instructor bg-white">
+                         <div class="col-md-12">
+                              <div class="text-center">Featured instructor</div>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- Latest blogs -->
+
+               <div class="container-xl">
+                    <div class="blogs">
+                         <div class="row latest-blog">
+                              <div class="col-md-12">
+                                   <div class="text-start">Latest blogs</div>
+                              </div>
+                              <div class="col-md-12">
+                                   <a href="#" class="btn btn-outline-primary float-end">View all</a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="container-xl">
+                    <div class="join">
+                         <div class="row">
+                              <div class="col-md-6 text-center">
+                                   <div class="join-col">
+                                        <!-- <div class="card-body"> -->
+                                        <h3>Join now to start learning</h3>
+                                        <button class="btn">Get Started</button>
+                                        <!-- </div> -->
+                                   </div>
+                              </div>
+                              <div class="col col-md-6 text-center">
+                                   <div class="join-col">
+                                        <!-- <div class="card-body"> -->
+                                        <h3>Become instructor</h3>
+                                        <button class="btn">Join now</button>
+                                        <!-- </div> -->
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <!-- Footer section -->
+               <div class="container-xl">
+                    <div class="footer">
+                         <div class="row">
+                              <div class="col-md-3 footer-col">
+                                   <a href="./index.html">
+                                        <img src="./images/06179cfdbde10e9fef71cf2b755c3f9b.png" class="img-fluid" width="100px" alt="Studide logo" />
+                                   </a>
+                                   <p>Studide E-Learning is the best practical education platform in India.</p>
+                                   <div class="d-flex">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                   </div>
+                              </div>
+                              <div class="col-md-3 footer-col">
+                                   <h5>Top categories</h5>
+                                   <ul>
+                                        <li><a href="#">Skill Based Courses</a></li>
+                                        <li><a href="#">English Language Training</a></li>
+                                        <li><a href="#">Coding and Programming Courses</a></li>
+                                        <li><a href="#">Personality Development and Interviews</a></li>
+                                   </ul>
+                              </div>
+                              <div class="col-md-3 footer-col">
+                                   <h5>Useful links</h5>
+                                   <ul>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">All courses</a></li>
+                                        <li><a href="#">Sign up</a></li>
+                                   </ul>
+                              </div>
+                              <div class="col-md-3 footer-col">
+                                   <h5>Help</h5>
+                                   <ul>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                        <li><a href="#">Terms and condition</a></li>
+                                        <li><a href="#">Refund policy</a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="footer-end">
+                    <div class="container-xl">&copy; 2021 Studide E-Learning, All rights reserved</div>
+               </div>
+          </div>
+     </body>
+     <script src="https://kit.fontawesome.com/4964e7ccb3.js" crossorigin="anonymous"></script>
+</html>
